@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.users {
+  width: 1240px;
+  height: auto;
+  margin: 10px auto;
+  border: 2px solid black;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.user {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.even {
+  color: green;
+}
+
+.odd {
+  color: red;
+}
